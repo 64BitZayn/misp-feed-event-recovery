@@ -1,0 +1,4 @@
+fetched_events/
+*.html
+.env
+__pycache__/

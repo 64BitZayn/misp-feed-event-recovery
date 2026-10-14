@@ -1,0 +1,86 @@
+Feed Name,What It Fetches (Indicator Type)
+CIRCL OSINT Feed,"Mixed (IPs, domains, hashes, URLs, emails)"
+The Botvrij.eu Data,"Mixed (IPs, domains, hashes, URLs, emails)"
+ELLIO: IP Feed (Community version),"IP addresses (malicious, C2s)"
+blockrules of rules.emergingthreats.net,"IP addresses (malicious, blocklist)"
+Tor exit nodes,IP addresses (Tor exit nodes)
+Tor ALL nodes,IP addresses (all Tor nodes)
+cybercrime-tracker.net - all,"IPs, domains, URLs (C2s, crimeware)"
+Phishtank online valid phishing,URLs (phishing)
+ip-block-list - snort.org,"IP addresses (malicious, blocklist)"
+diamondfox_panels,"Domains, URLs, IPs (DiamondFox C2s)"
+pop3gropers,IP addresses (POP3 brute force attackers)
+Feodo IP Blocklist,IP addresses (Feodo C2s)
+OpenPhish url list,URLs (phishing)
+firehol_level1,"IP addresses (malicious, high confidence)"
+IPs from High-Confidence DGA-Based C&Cs Actively Resolving,IP addresses (DGA malware C2s)
+Domains from High-Confidence DGA-based C&C Domains Actively Resolving,Domains (DGA malware C2s)
+ci-badguys.txt,"IP addresses (malicious, blocklist)"
+alienvault reputation generic,"IP addresses (reputation-based, malicious)"
+blocklist.de/lists/all.txt,"IP addresses (attackers, brute force, etc.)"
+VNC RFB,IP addresses (malicious VNC scanners/attackers)
+sshpwauth.txt,IP addresses (SSH brute force)
+sipregistration,IP addresses (SIP brute force)
+siquery,"IP addresses (malicious, various)"
+sipinvitation,IP addresses (SIP brute force)
+DNS recursion desired,IP addresses (open DNS resolvers)
+DNS recursion desired IN ANY,IP addresses (open DNS resolvers)
+DNS CH TXT version.bind,IP addresses (open DNS resolvers)
+IP protocol 41,IP addresses (IPv6 tunneling abuse)
+SMTP data,IP addresses (SMTP abuse)
+SMTP greet,IP addresses (SMTP abuse)
+TELNET login,IP addresses (telnet brute force)
+All current domains belonging to known malicious DGAs,Domains (malicious DGA)
+VXvault - URL List,URLs (malware distribution)
+abuse.ch SSL IPBL,IP addresses (SSL blacklist)
+http://cybercrime-tracker.net/hashlist,Hashes (malware samples)
+http://cybercrime-tracker.net/gatelist,"Domains, URLs (C2s, crimeware)"
+blocklist.greensnow.co,"IP addresses (malicious, blocklist)"
+This list contains all domains - A list for administrators to prevent mining in networks,"Domains (browser mining, cryptojacking)"
+This list contains all optional domains - An additional list for administrators,"Domains (browser mining, cryptojacking)"
+This list contains all browser mining domains - A list to prevent browser mining only,"Domains (browser mining, cryptojacking)"
+URLHaus Malware URLs,URLs (malware distribution)
+CyberCure - IP Feed,"IP addresses (malicious, threat intel)"
+CyberCure - Blocked URL Feed,"URLs (malicious, threat intel)"
+CyberCure - Hash Feed,Hashes (malware samples)
+ipspamlist,"IP addresses (spamming, malicious)"
+mirai.security.gives,IP addresses (Mirai botnet)
+malsilo.url,URLs (malware distribution)
+malsilo.ipv4,IP addresses (malware distribution)
+malsilo.domain,Domains (malware distribution)
+malshare.com - current all,Hashes (malware samples)
+Panels Tracker,"Domains, URLs, IPs (malware C2 panels)"
+IPsum (aggregation of all feeds) - level 1,"IP addresses (malicious, some false positives)"
+IPsum (aggregation of all feeds) - level 2,"IP addresses (malicious, some false positives)"
+IPsum (aggregation of all feeds) - level 3,"IP addresses (malicious, some false positives)"
+IPsum (aggregation of all feeds) - level 4,"IP addresses (malicious, some false positives)"
+IPsum (aggregation of all feeds) - level 5,"IP addresses (malicious, few false positives)"
+IPsum (aggregation of all feeds) - level 6,"IP addresses (malicious, very few false positives)"
+IPsum (aggregation of all feeds) - level 7,"IP addresses (malicious, no false positives)"
+IPsum (aggregation of all feeds) - level 8,"IP addresses (malicious, no false positives)"
+DigitalSide Threat-Intel OSINT Feed,"URLs, domains, IPs (malware, phishing, C2s)"
+Metasploit exploits with CVE assigned,"CVE IDs, exploit names (vulnerabilities, not IOCs)"
+Malware Bazaar,Hashes (malware samples)
+PhishScore,URLs (phishing)
+ThreatFox,"Hashes, IPs, URLs, domains (malware, C2s, phishing)"
+MalwareBazaar,Hashes (malware samples)
+URLhaus,URLs (malware distribution)
+URL Seen in honeypots,"URLs (malicious, seen in honeypots)"
+SSH Bruteforce IPs,IP addresses (SSH brute force)
+Telnet Bruteforce IPs,IP addresses (telnet brute force)
+threatx indicators of compromise,"Mixed (IPs, domains, URLs, hashes)"
+James Brine Bruteforce IPs,IP addresses (brute force)
+List of malicious domains in Poland,"Domains (malicious, Poland)"
+List of malicious hashes,Hashes (malware samples)
+Shreshta: Newly Registered domain names (NRD) - 1 week,"Domains (newly registered, 1 week)"
+Shreshta: Newly Registered domain names (NRD) - 1 month,"Domains (newly registered, 1 month)"
+Infoblox-Threat Intelligence,"Mixed (IPs, domains, URLs, threat intel)"
+Threatview.io - OSINT Threat Feed,"Mixed (IPs, domains, URLs, threat intel)"
+Threatview.io - C2 Hunt Feed,"IP addresses, domains (C2s)"
+Threatview.io - Domain Blocklist,Domains (malicious)
+Threatview.io - IP Blocklist,IP addresses (malicious)
+Threatview.io - URL Blocklist,URLs (malicious)
+Threatview.io - Bitcoin Address Intel,Bitcoin addresses (malicious/illicit)
+Threatview.io - SHA File Hash Blocklist,Hashes (malware samples)
+R4sti - Repackaged A-pen Source Threat Intelligence,"Mixed (IPs, domains, URLs, hashes)"
+Alien Vault (Custom Add),"Mixed (IPs, domains, URLs, hashes)"

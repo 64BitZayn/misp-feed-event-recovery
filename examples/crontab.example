@@ -1,0 +1,6 @@
+# Run the recovery for slow feeds every 6 hours, as the www-data user's crontab.
+# Save fresh preview pages into each folder before the first run (see README).
+# The tool skips events it already fetched, so re-runs only pull what's new.
+MISP_KEY=CHANGE_ME
+0 */6 * * * cd /opt/misp-feed-event-recovery && /usr/bin/python3 misp_feed_recovery.py --url https://misp.example.org --feed-id 65 --pages pages/feed65 >> /var/log/misp-feed-recovery-65.log 2>&1
+30 */6 * * * cd /opt/misp-feed-event-recovery && /usr/bin/python3 misp_feed_recovery.py --url https://misp.example.org --feed-id 66 --pages pages/feed66 >> /var/log/misp-feed-recovery-66.log 2>&1
